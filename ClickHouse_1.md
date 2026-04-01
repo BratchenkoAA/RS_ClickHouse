@@ -70,8 +70,7 @@ ORDER BY revenue DESC;
 ```
 
 ---
-
-## 📸 **Сделайте скриншот 2:** Результат запроса 1 (выручка по категориям)
+<img width="429" height="166" alt="image" src="https://github.com/user-attachments/assets/018c0c2b-b953-439d-a782-9946a1b4c95a" />
 
 ---
 
@@ -89,7 +88,7 @@ LIMIT 3;
 
 ---
 
-## 📸 **Сделайте скриншот 3:** Результат запроса 2 (топ-3 клиента)
+<img width="621" height="129" alt="image" src="https://github.com/user-attachments/assets/4e392fba-a0ef-4479-b273-84c61cd17ebe" />
 
 ---
 
@@ -105,7 +104,7 @@ ORDER BY month;
 
 ---
 
-## 📸 **Сделайте скриншот 4:** Результат запроса 3 (средний чек по месяцам)
+<img width="438" height="128" alt="image" src="https://github.com/user-attachments/assets/02e8a3bf-0102-4430-aecd-c6a2991ba51d" />
 
 ---
 
@@ -118,7 +117,7 @@ WHERE sale_timestamp >= '2024-06-01' AND sale_timestamp < '2024-07-01';
 
 ---
 
-## 📸 **Сделайте скриншот 5:** Результат запроса 4 (данные за июнь)
+<img width="1766" height="710" alt="image" src="https://github.com/user-attachments/assets/5c1f7aee-7910-4f5b-ba98-1e6ac0ee0f11" />
 
 ---
 
@@ -167,7 +166,7 @@ SELECT * FROM db_1.products_var001;
 
 ---
 
-## 📸 **Сделайте скриншот 6:** Результат запроса `SELECT * FROM db_1.products_var001;` (должны быть видны дубликаты)
+<img width="1481" height="216" alt="image" src="https://github.com/user-attachments/assets/4892a2ee-fac9-468d-8ba1-2ff9e8207eed" />
 
 ---
 
@@ -178,7 +177,7 @@ SELECT * FROM db_1.products_var001 FINAL;
 
 ---
 
-## 📸 **Сделайте скриншот 7:** Результат запроса `SELECT * FROM db_1.products_var001 FINAL;` (только последние версии)
+<img width="1478" height="229" alt="image" src="https://github.com/user-attachments/assets/e530d75d-1e37-4c0a-9fca-9441635ef253" />
 
 ---
 
@@ -224,9 +223,7 @@ INSERT INTO db_1.daily_metrics_var001 VALUES
 SELECT * FROM db_1.daily_metrics_var001 FINAL;
 ```
 
----
-
-## 📸 **Сделайте скриншот 8:** Результат запроса `SELECT * FROM db_1.daily_metrics_var001 FINAL;` (просуммированные значения)
+<img width="1180" height="287" alt="image" src="https://github.com/user-attachments/assets/75759f31-dade-40af-8e44-4e129ee2ee26" />
 
 ---
 
@@ -241,9 +238,7 @@ FROM db_1.daily_metrics_var001 FINAL
 GROUP BY channel;
 ```
 
----
-
-## 📸 **Сделайте скриншот 9:** Результат CTR запроса
+<img width="736" height="99" alt="image" src="https://github.com/user-attachments/assets/e77ae89d-9a31-4b29-b82e-8d6c1b26ce39" />
 
 ---
 
@@ -264,8 +259,7 @@ LIMIT 5;
 ```
 
 ---
-
-## 📸 **Сделайте скриншот 10:** Результат JOIN запроса (топ-5 товаров)
+<img width="556" height="197" alt="image" src="https://github.com/user-attachments/assets/22c36752-8ed6-47bf-b5ab-598c4d946a2f" />
 
 ---
 
@@ -295,9 +289,7 @@ GROUP BY tag
 ORDER BY items_count DESC;
 ```
 
----
-
-## 📸 **Сделайте скриншот 11:** Результат запроса с массивом
+<img width="596" height="202" alt="image" src="https://github.com/user-attachments/assets/1916aa19-fef2-4b54-9bb0-892f9103e2f6" />
 
 ---
 
@@ -311,8 +303,7 @@ SELECT 'metrics', count(), sum(clicks) FROM db_1.daily_metrics_var001 FINAL;
 ```
 
 ---
-
-## 📸 **Сделайте скриншот 12:** Результат контрольной суммы
+<img width="587" height="136" alt="image" src="https://github.com/user-attachments/assets/50974488-45a5-45c4-b4ab-f5728551edbe" />
 
 ---
 
